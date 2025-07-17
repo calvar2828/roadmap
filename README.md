@@ -6,16 +6,14 @@ This repository contains practice projects based on the [roadmap.sh](https://roa
 
 This folder contains an HTML-only implementation of a simple personal portfolio page. The goal is to structure the content using semantic HTML tags, without any CSS or JavaScript.
 
-### ✅ Requirements completed:
-- Header with name and navigation links
-- Centered section with title and description
-- Project list using a table and list items
-- Contact information using semantic tags
+01-https://roadmap.sh/projects/single-page-cv
+02-https://roadmap.sh/projects/basic-html-website
+
 
 ## 🔗 Project URL
 
 👉 [https://github.com/calvar2828/roadmap/tree/main/frontend](https://github.com/calvar2828/roadmap/tree/main/frontend)
-https://roadmap.sh/projects/basic-html-website
+
 
 
 ## 📌 Author
