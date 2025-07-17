@@ -15,6 +15,8 @@ This folder contains an HTML-only implementation of a simple personal portfolio 
 ## 🔗 Project URL
 
 👉 [https://github.com/calvar2828/roadmap/tree/main/frontend](https://github.com/calvar2828/roadmap/tree/main/frontend)
+https://roadmap.sh/projects/basic-html-website
+
 
 ## 📌 Author
 
