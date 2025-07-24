@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    border: 1px solid red; 
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.datepicker__input--wraper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.datepicker__input{
+    flex:1;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.datepicker__icon {
+  font-size: 1.5rem;        /* Tamaño del ícono */
+  padding: 10px;            /* Hace que no quede tan pequeño */
+  background: none;         /* Estética limpia */
+  border: none;
+  cursor: pointer;
+}
+
+.arrow__left{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+.arrow__right{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+.datepicker__days{
+    display: grid;
+    height: 50px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: dodgerblue;
+    padding: 2%;
+    width: 96%;
+}
+.datepicker__days div{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    pad: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+/* ------------------------ */
+.datepicker__display{
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.dates{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: dodgerblue;
+  padding: 2%;
+  width: 96%;
+    
+}
+.dates div{
+    
+    background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-start{
+    grid-column-start: 3;
+}

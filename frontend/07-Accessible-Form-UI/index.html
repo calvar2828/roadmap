@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="formUser">
+        <div class="userData">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" autocomplete="given-name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" aria-invalid="true" autocomplete="email">
+                <p id="email-error" class="error" aria-live="polite">Please enter a valid email.</p>
+
+                <label for="password">Enter Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" name="password" placeholder="XXXXXXX" aria-required="true">
+                    <button type="button" class="toggle-password" aria-label="Show password" aria-pressed="false" onclick="togglePassword('password', this)">👁️</button>
+                </div>
+
+                <label for="Cpassword">Confirm Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="Cpassword" name="Cpassword" placeholder="XXXXXXX">
+                    <button type="button" class="toggle-password" aria-label="Show password" aria-pressed="false" onclick="togglePassword('Cpassword', this)">👁️</button>
+                </div>
+
+                <button class="button">Update profile</button>
+                
+
+            </form>
+        </div>
+    </section>
+    
+    <section class="information">
+        <div>
+            <div class="profileInfo">
+                <div class="progressBar">
+                    <img src="Screenshot 2025-07-22 at 9.18.06 PM.png">
+                </div>
+                <div class="list">
+                    <h4>Profile Completeness</h4>
+                    <p>Create Account</p>
+                    <p>Update Roadmap Progress</p>
+                    <p>Setup Publix Profile</p>
+                    <p>Complete your first project</p>
+                    <p>Invite your Friends</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+:root {
+  --primary-color: rgb(175, 220, 222);
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.timeline {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  padding: 40px 0;
+}
+
+/* Línea vertical al centro */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: black;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+/* Fila de contenido */
+.timeline-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* Fecha (izquierda) */
+.timeline-date {
+  width: 45%;
+  text-align: right;
+  padding-right: 20px;
+  font-weight: bold;
+  color: gray;
+}
+
+/* Punto en el centro */
+.timeline-point {
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Descripción (derecha) */
+.timeline-desc {
+  width: 45%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.button--item{
+  padding:10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
